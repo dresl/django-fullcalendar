@@ -11,6 +11,8 @@ class CalendarEvent(models.Model):
     start = models.DateTimeField(_('Start'))
     end = models.DateTimeField(_('End'))
     description = models.TextField(_('Description'), blank=True, null=True)
+    constant_cooperation = models.BooleanField(_('Constant Cooperation'), default=False)
+    ongoing = models.BooleanField(_('Ongoing Exhibition'), default=False)
     all_day = models.BooleanField(_('All day'), default=False)
 
     class Meta:

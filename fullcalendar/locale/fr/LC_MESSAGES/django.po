@@ -20,15 +20,15 @@ msgstr ""
 
 #: models.py:10
 msgid "Title"
-msgstr "Título"
+msgstr ""
 
 #: models.py:11
 msgid "Start"
-msgstr "Início do Evento"
+msgstr ""
 
 #: models.py:12
 msgid "End"
-msgstr "Final do Evento"
+msgstr ""
 
 #: models.py:13
 msgid "Description"
@@ -44,12 +44,12 @@ msgstr ""
 
 #: models.py:16
 msgid "All day"
-msgstr "Todo o dia"
+msgstr ""
 
 #: models.py:19
 msgid "Event"
-msgstr "Evento"
+msgstr ""
 
 #: models.py:20
 msgid "Events"
-msgstr "Eventos"
+msgstr ""

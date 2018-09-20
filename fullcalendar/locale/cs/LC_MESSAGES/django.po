@@ -16,40 +16,40 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #: models.py:10
 msgid "Title"
-msgstr "Título"
+msgstr "Nadpis"
 
 #: models.py:11
 msgid "Start"
-msgstr "Início do Evento"
+msgstr "Začátek"
 
 #: models.py:12
 msgid "End"
-msgstr "Final do Evento"
+msgstr "Konec"
 
 #: models.py:13
 msgid "Description"
-msgstr ""
+msgstr "Popis"
 
 #: models.py:14
 msgid "Constant Cooperation"
-msgstr ""
+msgstr "Stálá spolupráce"
 
 #: models.py:15
 msgid "Ongoing Exhibition"
-msgstr ""
+msgstr "Probíhající výstava"
 
 #: models.py:16
 msgid "All day"
-msgstr "Todo o dia"
+msgstr "Celý den"
 
 #: models.py:19
 msgid "Event"
-msgstr "Evento"
+msgstr "Výstava"
 
 #: models.py:20
 msgid "Events"
-msgstr "Eventos"
+msgstr "Výstavy"
