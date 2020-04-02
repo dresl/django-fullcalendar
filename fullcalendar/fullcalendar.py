@@ -17,6 +17,7 @@ FULLCALENDAR_DEFAULTS = {
 FULLCALENDAR = FULLCALENDAR_DEFAULTS.copy()
 FULLCALENDAR.update(getattr(settings, 'FULLCALENDAR', {}))
 
+
 def css_url():
     return FULLCALENDAR['css_url']
 
